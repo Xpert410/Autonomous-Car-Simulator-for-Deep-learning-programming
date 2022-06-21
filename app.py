@@ -55,8 +55,6 @@ def main():
     min_detection_confidence = args.min_detection_confidence
     min_tracking_confidence = args.min_tracking_confidence
 
-    use_brect = True
-
     # Camera preparation ###############################################################
     cap = cv.VideoCapture(cap_device)
     cap.set(cv.CAP_PROP_FRAME_WIDTH, cap_width)
@@ -420,18 +418,18 @@ def draw_landmarks(image, landmark_point): # Display hand landmarks
 
 def draw_info_text(image,finger_gesture_text): # Display information 
     # Delay output
-    global gesturecount 
-    gesturecount += 1
-    if gesturecount == 10:
+    # global gesturecount 
+    # gesturecount += 1
+    # if gesturecount == 10:
         # Display gesture
-        if finger_gesture_text != "":
-            cv.putText(image, "Hand Gesture:" + finger_gesture_text, (10, 60),
-                    cv.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 0), 4, cv.LINE_AA)
-            cv.putText(image, "Hand Gesture:" + finger_gesture_text, (10, 60),
-                    cv.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2,
-                    cv.LINE_AA)
-            print(finger_gesture_text)
-            gesturecount = 0
+    if finger_gesture_text != "":
+        cv.putText(image, "Hand Gesture:" + finger_gesture_text, (10, 60),
+                cv.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 0), 4, cv.LINE_AA)
+        cv.putText(image, "Hand Gesture:" + finger_gesture_text, (10, 60),
+                cv.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2,
+                cv.LINE_AA)
+        print(finger_gesture_text)
+            # gesturecount = 0
 
     return image
 
