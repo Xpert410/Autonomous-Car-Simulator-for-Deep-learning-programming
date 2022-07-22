@@ -120,11 +120,12 @@ def main():
             try:
                 s = socket.socket()
                 port = 12345    
-                s.connect(('172.26.180.22', port))
+                s.connect(('192.168.50.64', port))
                 print("Connected to JetBot")
             except:
                 print("Unable to connect to JetBot")
-                select_mode(110, 0)
+                mode = 0 
+                key = 110
         number, mode = select_mode(key, mode)
 
         # Camera capture #####################################################
@@ -456,7 +457,7 @@ def draw_info_text(image,finger_gesture_text): # Display information
             try:
                 s.send(finger_gesture_text.encode())
             except:
-                print("Unable to send to JetBot")
+                pass
             gesturecount = 0
 
     return image
