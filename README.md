@@ -46,3 +46,7 @@ ESC = Close program
   4 = Toggle Reverse
   5 = Full Stop
 Can add more by adding more labels in /Client/model/hand_history_classifier/hand_history_label.csv
+
+# Video demo
+https://www.youtube.com/watch?v=caQdbPbA_Oo
+
