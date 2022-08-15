@@ -20,6 +20,7 @@
 2 = Throttle
 3 = Brake
 4 = Toggle Reverse
+5 = Full Stop, not used on the JetBot
 
 /Client/utils = Contains the cvfpscalc.py that will be used to display the FPS on the camera feed
 
