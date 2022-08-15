@@ -64,8 +64,13 @@ Hardware (Minimum):
 1. Download CARLA 0.9.12 from [here](https://github.com/carla-simulator/carla/releases/tag/0.9.12/).
 
 ## Quick Start
--Launching the simulator: \CARLA_0.9.12\WindowsNoEditor\Carla.exe
+* Launching the simulator: \CARLA_0.9.12\WindowsNoEditor\Carla.exe
+* Launching the car: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\manual_control
+* Adding dynamic weather \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\dynamic_weather
+* Adding traffic and pedestrians \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\generate_traffic
 
 # Video demo
 https://www.youtube.com/watch?v=caQdbPbA_Oo
+CARLA Simulator + Hand Gesture: https://youtu.be/9HP2e8fJD2k
+CARLA Simulator Quick Start: https://youtu.be/VVKuHdc_W8U
 
