@@ -73,7 +73,7 @@ def main():
 
     # Read labels ###########################################################
     with open(
-            'model/hand_history_classifier/hand_history_classifier_label.csv',
+            'Client/model/hand_history_classifier/hand_history_classifier_label.csv',
             encoding='utf-8-sig') as f:
         hand_history_classifier_labels = csv.reader(f)
         hand_history_classifier_labels = [
@@ -245,7 +245,7 @@ def logging_csv(number, mode, frames_coordinate_list): # Save coordinates into .
         pass
     if mode == 1 and (0 <= number <= 9):
         for frame in frames_coordinate_list:
-            csv_path = 'model/hand_history_classifier/hand_history.csv'
+            csv_path = 'Client/model/hand_history_classifier/hand_history.csv'
             with open(csv_path, 'a', newline="") as f:
                 writer = csv.writer(f)
                 writer.writerow([number, *frame])

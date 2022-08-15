@@ -12,7 +12,7 @@
 
 /Client/hand_history_classifier/hand_history.csv = Dataset of coordinates of the hand gestures collected that will be used to train the model
 
-/Client/hand_history_classifier/hand_history_classifier.py = Used to allow the Jupyter Notebook to 
+/Client/hand_history_classifier/hand_history_classifier.py = Contains functions needed for the app.py to run
 
 /Client/hand_history_classifier/hand_history_classifier.csv = Dataset labels used to train the model
 0 = Left

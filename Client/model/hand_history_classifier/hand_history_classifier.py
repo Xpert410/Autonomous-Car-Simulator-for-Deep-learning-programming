@@ -7,7 +7,7 @@ import tensorflow as tf
 class HandHistoryClassifier(object):
     def __init__(
         self,
-        model_path='model/hand_history_classifier/hand_history_classifier.tflite',
+        model_path='Client/model/hand_history_classifier/hand_history_classifier.tflite',
         score_th=0.5,
         invalid_value=0,
         num_threads=1,
