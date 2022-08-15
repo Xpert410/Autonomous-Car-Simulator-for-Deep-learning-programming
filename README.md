@@ -47,6 +47,25 @@ ESC = Close program
   5 = Full Stop
 Can add more by adding more labels in /Client/model/hand_history_classifier/hand_history_label.csv
 
+# Carla Simulator
+
+## Requirements
+
+Software:
+* Python 3.7
+* Carla 0.9.12
+
+Hardware (Minimum):
+* CPU: Quad or Octa core
+* GPU: Dedicated, as much memory as possible
+* RAM: 16GB
+
+## Installation
+1. Download CARLA 0.9.12 from [here](https://github.com/carla-simulator/carla/releases/tag/0.9.12/).
+
+## Quick Start
+-Launching the simulator: \CARLA_0.9.12\WindowsNoEditor\Carla.exe
+
 # Video demo
 https://www.youtube.com/watch?v=caQdbPbA_Oo
 
