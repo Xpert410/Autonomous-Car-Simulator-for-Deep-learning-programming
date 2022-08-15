@@ -44,7 +44,7 @@ N = Normal mode
 
 ESC = Close program
 
-# Create dataset
+# Create dataset for Hand Gesture Recognition
 
 1. Run app.py
 2. Press O
