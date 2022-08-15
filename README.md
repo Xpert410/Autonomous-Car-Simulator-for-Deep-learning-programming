@@ -51,12 +51,12 @@ ESC = Close program
 3. Put your hand in the starting position of the hand gesture that you wish to collect
 4. Do the hand gesture that you wish to collect
 5. Press numbers 1 - 5 depending on what gesture you are collecting
-  0 = Left
-  1 = Right
-  2 = Throttle
-  3 = Brake
-  4 = Toggle Reverse
-  5 = Full Stop, not used on the JetBot
+0 = Left
+1 = Right
+2 = Throttle
+3 = Brake
+4 = Toggle Reverse
+5 = Full Stop, not used on the JetBot
 Can add more by adding more labels in /Client/model/hand_history_classifier/hand_history_label.csv
 
 
