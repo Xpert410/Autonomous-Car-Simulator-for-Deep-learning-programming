@@ -1,4 +1,4 @@
-# Autonomous-Car-Simulator-for-Deep-learning-programming
+# JetBot
 
 /requirements.txt = List of packages that needs to be installed to run the program
 
