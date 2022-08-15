@@ -59,6 +59,11 @@ ESC = Close program
 5 = Full Stop, not used on the JetBot
 Can add more by adding more labels in /Client/model/hand_history_classifier/hand_history_label.csv
 
+# Video Demo
+
+JetBot Controls: https://youtu.be/aICB153Dnow
+Input Override: https://youtu.be/zpyGcxsfaQU
+
 
 
 
