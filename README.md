@@ -44,5 +44,5 @@ ESC = Close program
   2 = Throttle
   3 = Brake
   4 = Toggle Reverse
-  5 = Full Stop, not used on the JetBot
+  5 = Full Stop
 Can add more by adding more labels in /Client/model/hand_history_classifier/hand_history_label.csv
