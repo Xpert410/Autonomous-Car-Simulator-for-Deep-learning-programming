@@ -4,17 +4,17 @@
 
 /Client = Contains all the resources needed for the hand gesture recognition and for communicating with the JetBot
 
-/Client/hand_history_classifier = Contains resources such as the pre-trained model used for hand gesture recognition
+/Client/model/hand_history_classifier = Contains resources such as the pre-trained model used for hand gesture recognition
 
-/Client/hand_history_classifier/hand_classifier.hdf5 = The pre-trained model
+/Client/model/hand_history_classifier/hand_classifier.hdf5 = The pre-trained model
 
-/Client/hand_history_classifier/hand_classifier.tflite = The pre-trained model converted to TFLite
+/Client/model/hand_history_classifier/hand_classifier.tflite = The pre-trained model converted to TFLite
 
-/Client/hand_history_classifier/hand_history.csv = Dataset of coordinates of the hand gestures collected that will be used to train the model
+/Client/model/hand_history_classifier/hand_history.csv = Dataset of coordinates of the hand gestures collected that will be used to train the model
 
-/Client/hand_history_classifier/hand_history_classifier.py = Contains functions needed for the app.py to run
+/Client/model/hand_history_classifier/hand_history_classifier.py = Contains functions needed for the app.py to run
 
-/Client/hand_history_classifier/hand_history_classifier.csv = Dataset labels used to train the model
+/Client/model/hand_history_classifier/hand_history_classifier.csv = Dataset labels used to train the model
 0 = Left
 1 = Right
 2 = Throttle
@@ -34,7 +34,15 @@
 
 /Server/Hand Gest + Colli Avoid.ipynb = Contains the codes for communicating with the client to control the JetBot, and also have collision avoidance
 
+# app.py controls
 
+O = Control JetBot with hand gestures
+
+K = Log hand gesture coordinates and save to dataset
+
+N = Normal mode
+
+ESC = Close program
 
 
 
