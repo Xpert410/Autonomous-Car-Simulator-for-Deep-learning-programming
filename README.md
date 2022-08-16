@@ -66,8 +66,8 @@ Hardware (Minimum):
 ## Quick Start
 * Launching the simulator: \CARLA_0.9.12\WindowsNoEditor\Carla.exe
 * Launching the car: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\manual_control
-* Adding dynamic weather \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\dynamic_weather
-* Adding traffic and pedestrians \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\generate_traffic
+* Adding dynamic weather: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\dynamic_weather
+* Adding traffic and pedestrians: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\generate_traffic
 
 # Video demo
 https://www.youtube.com/watch?v=caQdbPbA_Oo
