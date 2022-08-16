@@ -47,7 +47,7 @@ ESC = Close program
 # Create dataset for Hand Gesture Recognition
 
 1. Run app.py
-2. Press O
+2. Press K
 3. Put your hand in the starting position of the hand gesture that you wish to collect
 4. Do the hand gesture that you wish to collect
 5. Press numbers 1 - 5 depending on what gesture you are collecting
