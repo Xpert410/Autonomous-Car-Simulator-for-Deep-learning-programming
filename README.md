@@ -69,10 +69,10 @@ Hardware (Minimum):
 * Adding dynamic weather: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\dynamic_weather
 * Adding traffic and pedestrians: \CARLA_0.9.12\WindowsNoEditor\PythonAPI\examples\generate_traffic
 
-#Object Detection
+# Object Detection
 Link to the object detection colab is [here](https://colab.research.google.com/drive/1fMPs0Y7mw1gys9s6zMMe2rvcjV23bsoH?usp=sharing).
 
-##How to use
+## How to use
 1. Run the codes one by one and make sure there is a tick on the code before running the next
 2. !train.py is for training the dataset
 3. !detect is for object detection on a video or picture
