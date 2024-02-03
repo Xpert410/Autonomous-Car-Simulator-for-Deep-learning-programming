@@ -84,3 +84,5 @@ CARLA Simulator + Hand Gesture: https://youtu.be/9HP2e8fJD2k
 
 CARLA Simulator Quick Start: https://youtu.be/VVKuHdc_W8U
 
+Object Detection + Carla Simulator: https://www.youtube.com/watch?v=bFSmcQiGxjU
+
